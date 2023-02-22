@@ -30,6 +30,6 @@
 | MySQL     | `SHOW COLUMNS FROM 'TABLE_NAME';`                                                                                                                                      | [Full Schema](https://dev.mysql.com/doc/refman/5.7/en/show-columns.html)                                                         |
 | SQLite3   | `PRAGMA table_info('TABLE_NAME');`                                                                                                                                     | [Full Schema](https://www.sqlite.org/pragma.html#pragfunc)                                                                       |
 
-
 ## Useful Links
-1. [PortSwigger Cheat sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)
+
+1. [PortSwigger](https://portswigger.net/web-security/sql-injection/cheat-sheet)

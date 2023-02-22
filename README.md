@@ -4,11 +4,11 @@ Some Web tools for CTF Challenges.
 
 Primarily made during my journey in PortSwigger Web Security Academy.
 
-## SQL Injection Cheat Sheet
+## Table of Contents
 
-1. [PortSwigger](https://portswigger.net/web-security/sql-injection/cheat-sheet)
-2. [SQLi CheatSheet](SQLi/Readme.md)
-
-## XML
-
-1. Character Encoder
+- [SQL Injection](./SQLi/Readme.md)
+- [XSS](./XSS/Readme.md)
+- [Padding Oracle](./Padding%20Oracle/)
+- [CSP Bypass](./CSP%20Bypass/Readme.md)
+- [XML](./XML/)
+- [Auth Vulnerabilities](./Auth%20Vulnerabilities/README.md)
